@@ -1,3 +1,19 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.arrow {
+  width: 10%;
+  display: inline-block;
+  float: right;
+  float: inherit;
+  margin-top: 15px;
+}
+
+.arrow-left {
+  width: 100%;
+}
+
 body {
   background-color: #333;
   font-family: sans-serif;
@@ -9,10 +25,39 @@ body {
   width: 420px;
 }
 
+.content {
+  width: 80%;
+  display: inline-block;
+}
+
+.content h1 {
+  font-size: 22px;
+  color: #000;
+  font-weight: bold;
+}
+
+.content h3 {
+  font-size: 14px;
+  color: #000;
+}
+
+.location:hover {
+  background-color: #66CCFF;
+} /** mouse over**/
+
+.location {
+  background-color: #F0F3F4;
+  width: 100%;
+  border-bottom: .5px solid black;
+  float: right;
+  padding: 2%
+}
+
 nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   position: fixed;
+  background-color: black;
   width: 420px;
 }
 
